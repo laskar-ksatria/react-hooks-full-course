@@ -16,7 +16,7 @@ function UseState() {
         <>
             <div className="hooks-content mt-5">
                 <div>
-                    <h2 className="text-center">useState</h2>
+                    <h2 className="text-center text-decoration-underline">useState</h2>
                     <div className="mt-4">
                         <div>
                             <label htmlFor="text-use-state" className="form-label">Name</label>

@@ -5,6 +5,8 @@ import Home from './Home'
 import UseState from './UseState'
 import UseEffect from './UseEffect'
 import UseContext from './UseContext'
+import UseReducer from './UseReducer'
+import UseReducerUseContext from './UseReducerUseContext'
 
 function Views() {
     return (
@@ -16,6 +18,8 @@ function Views() {
                     <Route path="/useState" component={UseState} />
                     <Route path="/useEffect" component={UseEffect} />
                     <Route path="/useContext" component={UseContext} />
+                    <Route path="/useReducer" component={UseReducer} />
+                    <Route path="/useReducer-useContext" component={UseReducerUseContext} />
                 </Switch>
                 
             </div>

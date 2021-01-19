@@ -6,7 +6,7 @@ const Home = () => {
     const contentList = [
         {title: 'useState', url: 'useState'}, {title: 'useEffect', url: 'useEffect'},
         {title: 'useContext', url: 'useContext'}, {title: 'useReducer', url: 'useReducer'},
-        {title: 'useContext & useReducer', url: 'useReducer'}, {title: 'useMemo', url: 'useMemo'},
+        {title: 'useContext & useReducer', url: 'useReducer-useContext'}, {title: 'useMemo', url: 'useMemo'},
         {title: 'useCallback', url: 'useCallback'}, {title: 'useRef', url: 'useRef'}
     ]
 
