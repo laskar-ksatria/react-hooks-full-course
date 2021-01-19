@@ -8,6 +8,7 @@ import UseContext from './UseContext'
 import UseReducer from './UseReducer'
 import UseReducerUseContext from './UseReducerUseContext'
 import UseMemo from './UseMemo'
+import UseCallback from './UseCallback'
 
 function Views() {
     return (
@@ -22,6 +23,7 @@ function Views() {
                     <Route path="/useReducer" component={UseReducer} />
                     <Route path="/useReducer-useContext" component={UseReducerUseContext} />
                     <Route path="/useMemo" component={UseMemo} />
+                    <Route path="/useCallback" component={UseCallback} />
                 </Switch>
                 
             </div>

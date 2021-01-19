@@ -69,7 +69,7 @@ function UseReducer() {
                             <p style={{fontSize: '13px'}}>Your message send:<span style={{color: 'gold'}}> {state.sendMessage}</span></p>
                         </div>
                     </div>
-                    <div style={{marginTop: '50px'}}>a
+                    <div style={{marginTop: '50px'}}>
                         <a href="https://github.com/laskar-ksatria/react-hooks-full-course/blob/main/src/views/UseReducer.js">See source code on github</a>
                     </div>
                     </div>
