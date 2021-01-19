@@ -27,7 +27,7 @@ function UseMemo() {
                             />
                         </div>
                         <div>
-                            <label htmlFor="text-use-state" className="form-label mt-2">Address</label>
+                            <label htmlFor="text-use-state" className="form-label mt-2">Message2</label>
                             <textarea 
                                 className="form-control" 
                                 value={message2}
@@ -43,7 +43,7 @@ function UseMemo() {
                                 Message2: <span style={{color: 'gold', fontWeight: 'bold'}}>{message2}</span>
                             </p>
                             <p>
-                                Message2 filter: <span style={{color: 'gold', fontWeight: 'bold'}}>{filterMessage} <span style={{marginLeft: '20px', fontSize: '9px', color: 'white', fontWeight: '400'}}>*with useMemo function</span></span>
+                                Message2 Uppercase: <span style={{color: 'gold', fontWeight: 'bold'}}>{filterMessage} <span style={{marginLeft: '20px', fontSize: '9px', color: 'white', fontWeight: '400'}}>*Only executed when message2 is changed</span></span>
                             </p>
                         </div>
                     </div>

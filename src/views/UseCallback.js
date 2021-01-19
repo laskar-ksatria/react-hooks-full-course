@@ -5,6 +5,7 @@ function UseCallBack() {
     const [message, setMessage] = React.useState("")
     const [email, setEmail] = React.useState("")
 
+    //Similar like useMemo
     const getMail = React.useCallback(() => {
         console.log('Executed getMail')
         if (email) return email + '@mail.com'
