@@ -6,7 +6,7 @@ function Header() {
     let history = useHistory()
 
     return (
-        <nav className="navbar navbar-light" style={{background: '#20232a'}}>
+        <nav className="navbar navbar-light" style={{background: '#23689b'}}>
             <div className="container-fluid">
                 <span 
                     className="navbar-brand mb-0 h1 text-light" 

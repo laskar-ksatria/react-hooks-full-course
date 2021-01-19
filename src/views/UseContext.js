@@ -22,6 +22,14 @@ function UseContext() {
 
     return(
         <StateContext.Provider value={{ sendContext: initialState }}>
+            <div className="mt-4 text-light" style={{display: 'flex', width: '100%', justifyContent: 'center', alignItems: 'center'}}>
+                <div>
+                    <h2 className="text-center">UseContext</h2>
+                    <div>
+                        <a href="https://github.com/laskar-ksatria/react-hooks-full-course/blob/main/src/views/UseContext.js">See source code on github</a>
+                    </div>
+                </div>
+            </div>
             <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '30px', color: 'white'}}>
                 <div>
                     <h2 style={{textAlign: 'center'}}>Parent Component</h2>

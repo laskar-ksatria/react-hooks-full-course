@@ -17,6 +17,7 @@ function UseState() {
             <div className="hooks-content mt-5">
                 <div>
                     <h2 className="text-center text-decoration-underline">useState</h2>
+                    
                     <div className="mt-4">
                         <div>
                             <label htmlFor="text-use-state" className="form-label">Name</label>
@@ -26,6 +27,7 @@ function UseState() {
                                 value={state.name}
                                 //Put the handleChange here
                                 onChange={handleChange}
+                                placeholder="Input name"
                             />
                         </div>
                         <div>
@@ -35,6 +37,7 @@ function UseState() {
                                 name="address"
                                 value={state.address}
                                 onChange={handleChange}
+                                placeholder="Input address"
                             />
                         </div>
                         <div className="mt-5">
@@ -47,7 +50,7 @@ function UseState() {
                         </div>
                     </div>
                     <div style={{marginTop: '50px'}}>
-                        <a href="https://github.com/laskar-ksatria/react-hooks-full-course">See source code on github</a>
+                        <a href="https://github.com/laskar-ksatria/react-hooks-full-course/blob/main/src/views/UseState.js">See source code on github</a>
                     </div>
                     </div>
             </div>
