@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@500&display=swap');
+
+*, html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fraunces', serif;
+    background-color: rgb(49, 49, 46)
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 30px;
+}
+
+.card-link {
+    box-sizing: border-box !important;
+    margin: 0px !important;
+    width: calc(100% / 4);
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.card-link-body {
+    background-color: rgb(21, 18, 65);
+    box-shadow: 1px 1px 10px 1px rgb(22, 19, 41);
+    padding: 5px;
+    height: 120px;
+}
+
+.card-link-content {
+    background-color: blanchedalmond;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card-link-body:hover {
+    transform: scale(1.05);
+}
+
+.hooks-content {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
