@@ -26,7 +26,7 @@ function UseContext() {
                 <div>
                     <h2 className="text-center">UseContext</h2>
                     <div>
-                        <a href="https://github.com/laskar-ksatria/react-hooks-full-course/blob/main/src/views/UseContext.js">See source code on github</a>
+                        <a href="https://github.com/laskar-ksatria/react-hooks-full-course/blob/main/src/views/UseContext.js" target="_blank">See source code on github</a>
                     </div>
                 </div>
             </div>

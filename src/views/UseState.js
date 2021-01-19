@@ -50,7 +50,7 @@ function UseState() {
                         </div>
                     </div>
                     <div style={{marginTop: '50px'}}>
-                        <a href="https://github.com/laskar-ksatria/react-hooks-full-course/blob/main/src/views/UseState.js">See source code on github</a>
+                        <a href="https://github.com/laskar-ksatria/react-hooks-full-course/blob/main/src/views/UseState.js" target="_blank">See source code on github</a>
                     </div>
                     </div>
             </div>

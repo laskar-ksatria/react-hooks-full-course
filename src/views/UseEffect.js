@@ -26,7 +26,7 @@ function UseEffect() {
         <div className="hooks-content mt-5">
             <div>
                 <h2 className="text-center">UseEffect</h2>
-                <a href="https://github.com/laskar-ksatria/react-hooks-full-course/blob/main/src/views/UseEffect.js">See source code on github</a>
+                <a href="https://github.com/laskar-ksatria/react-hooks-full-course/blob/main/src/views/UseEffect.js" target="_blank">See source code on github</a>
                 <div className="mt-4">
                     <div>
                         <label htmlFor="text-use-state" className="form-label">Count1</label>
