@@ -51,7 +51,7 @@ function UseReducerUseContext() {
             <div className="hooks-content mt-5">
                 <div>
                     <h2 className="text-center text-decoration-underline">useReducer & useContext</h2>
-                    <a href="https://github.com/laskar-ksatria/react-hooks-full-course">See source code on github</a>
+                    <a href="https://github.com/laskar-ksatria/react-hooks-full-course/blob/main/src/views/UseReducerUseContext.js">See source code on github</a>
                     <ChildComponent />
                 </div>
             </div>
