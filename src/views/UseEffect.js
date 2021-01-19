@@ -26,19 +26,22 @@ function UseEffect() {
         <div className="hooks-content mt-5">
             <div>
                 <h2 className="text-center">UseEffect</h2>
+                <a href="https://github.com/laskar-ksatria/react-hooks-full-course">See source code on github</a>
                 <div className="mt-4">
                     <div>
                         <label htmlFor="text-use-state" className="form-label">Count1</label>
                         <input 
                             type="number"
-                            className="form-control" 
+                            className="form-control"
+                            placeholder="Input number" 
                             value={count1}
                             //Put the handleChange here
                             onChange={handleChange}
                         />
                     </div>
                     <div className="mt-4">
-                        <p className="fw-bold">Count2: {count2}</p>
+                        <p className="fw-bold">Count2: <span style={{color: 'gold'}}>{count2}</span></p>
+                        <p style={{fontSize: '12px'}}>*count2 is twice that of count1</p>
                     </div>
                 </div>
                 <div className="mt-2">

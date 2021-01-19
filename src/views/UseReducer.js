@@ -70,7 +70,7 @@ function UseReducer() {
                         </div>
                     </div>
                     <div style={{marginTop: '50px'}}>
-                        <a href="https://github.com/laskar-ksatria/react-hooks-full-course">See source code on github</a>
+                        <a href="https://github.com/laskar-ksatria/react-hooks-full-course/blob/main/src/views/UseReducer.js">See source code on github</a>
                     </div>
                     </div>
             </div>
